@@ -22,10 +22,10 @@ total_pnl = 0
 realized_pnl = 0
 
 class_code = 'TQBR'  # Код площадки
-sec_code = 'SBER'  # Код тикера
+sec_code = str('Введите код тикера (SBER, GAZP и т.п.): ')  # Код тикера
 trans_id = 12358  # Номер транзакции
 
-quantity = 3  # Кол-во в лотах
+quantity = int(input('Введите какое количество лотов вы хотите распределить на каждый уровень: '))  # Кол-во в лотах
 
 transcounter = 100
 
